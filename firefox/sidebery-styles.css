@@ -1,0 +1,43 @@
+#root.root {
+  --ctx-menu-font: bold 0.875rem bookman-old-style;
+}
+#root.root {
+  --bookmarks-bookmark-font: bold 0.9375rem bookman-old-style;
+}
+#root.root {
+  --bookmarks-folder-font: bold 0.9375rem bookman-old-style;
+}
+#root.root {
+  --tabs-font: bold 0.8rem bookman-old-style;
+}
+#root.root {
+  --tabs-count-font: bold 0.5625rem bookman-old-style;
+}
+
+#root.root {
+  --active-el-fg: #000000ff;
+}
+#root.root {
+  --tabs-normal-fg: #f3fbffff;
+}
+#root.root {
+  --tabs-activated-bg: #f4f8ffff;
+}
+#root.root {
+  --tabs-activated-fg: #f16e21ff;
+}
+#root.root {
+  --tabs-progress-bg: #2c1db2ff;
+}
+#root.root {
+  --nav-btn-fg: #d05610ff;
+}
+#root.root {
+  --toolbar-fg: #cd5d0eff;
+}
+#root.root {
+  --toolbar-el-overlay-selected-border: #2249c5ff;
+}
+#root.root {
+  --toolbar-scrollbar-color: #07407fff;
+}
