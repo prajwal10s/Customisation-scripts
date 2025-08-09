@@ -41,3 +41,16 @@
 #root.root {
   --toolbar-scrollbar-color: #07407fff;
 }
+
+#root.root {
+  counter-reset: tabindex;
+}
+
+.Tab {
+  counter-increment: tabindex;
+}
+.Tab .title::before {
+  content: counter(tabindex) ". ";
+  margin-right: 4px;
+  color: var(--tabs-fg-hover);
+}
